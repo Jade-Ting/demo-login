@@ -10,7 +10,7 @@ const Home = () => {
     if (!token) {
       history.push("/login");
     }
-  }, []);
+  });
 
   return <Result
     status="success"
