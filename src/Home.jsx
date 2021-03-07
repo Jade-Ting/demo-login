@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import { Result } from 'antd';
 
 const Home = () => {
-  let history = useHistory();
+  const history = useHistory();
 
   useEffect(() => {
     const token = localStorage.getItem("token");
